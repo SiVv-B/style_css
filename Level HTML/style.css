@@ -1,0 +1,66 @@
+* {
+    font-family: roboto, sans-serif;
+}
+nav {
+    display: flex;
+    justify-content: flex-end;
+    width: 50% 0;
+
+}
+ ul {
+     display: flex;
+    justify-content: flex-end;
+    list-style: none;
+    border: 1px solid gray;
+    align-items: flex-start;    
+ }
+ 
+
+ 
+ a {
+   
+    padding: 20px 50px 20px 20px;
+
+
+ }
+ a:link {
+    color: red;
+}
+
+a:hover {
+    color: green;
+}
+
+h2 {
+    
+    color: orchid;
+}
+
+.work {
+    margin-left: 50%;
+}
+.audio, audio, iframe {
+    display:block;  
+    margin: 10px;
+    width: 50%;
+    
+}
+
+.audio{
+    border: 1px solid orange;
+}
+
+.video iframe {
+    display:block;  
+    margin: 10px;
+    border: 2px solid blue;
+
+   
+}
+
+footer{
+    display:block;
+    text-align: center;
+    border: 1px solid orange;
+    background-color: rgb(206, 205, 205);
+}
